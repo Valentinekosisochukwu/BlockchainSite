@@ -365,15 +365,31 @@ and (max-width: 768px){
 } 
 
 
-
 @media only screen
-/*and (min-width: 321px) */
-and (max-width: 480px){
+and (max-width: 600px){ 
 	.nav a i{
 		display: flex;
 		position: absolute;
-		top: 45px;
-		left: 450px;
+		top: 60px;
+		left: 580px;
+	}	
+
+	.topbox2 span a{
+		margin-left: 2rem;
+		/*font-size: 50%;*/
+	}
+}
+
+
+
+
+@media only screen
+and (max-width: 425px){
+	.nav a i{
+		display: flex;
+		position: absolute;
+		top: 35px;
+		left: 400px;
 	}	
 	.nav p  b span{
 		font-size: 35%;
@@ -399,7 +415,7 @@ and (max-width: 480px){
 		font-size: 50%;
 		width: 210px;
 		height: 140px;
-		margin-left: 2rem;
+		margin-left: 5rem;
 		margin-bottom: 1rem;
 	}
 	.topbox2 span a{
@@ -463,12 +479,37 @@ and (max-width: 480px){
 		font-size: 40%;
 	}
 	.footer{
+		width: 100%;
 		border-radius: 10px;
 	}
 	.footer p, .footer a{
 		font-size: 40%;
 	}
-
-
 }
 
+@media only screen
+and (max-width: 375px){
+	.nav a i{
+		display: flex;
+		position: absolute;
+		top: 45px;
+		left: 350px;
+	}
+	.topbox2{
+		margin-left: 3rem;
+	}
+}
+
+
+@media only screen
+and (max-width: 320px){
+	.nav a i{
+		display: flex;
+		position: absolute;
+		top: 45px;
+		left: 300px;
+	}
+	.topbox2{
+		margin-left: 2rem;
+	}
+}
