@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
@@ -15,8 +16,9 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: rgb(200.36, 232.69, 245.89);
-	padding: 2px;
-
+	padding: 1rem;
+	overflow: auto;
+	overscroll-behavior: contain;
 }
 
 .nav ul{
@@ -72,7 +74,7 @@ body{
 
 
 .topbox2{
-	display: grid;
+	/* display: grid; */
 	grid-template-columns: 3fr;
 	border: 2px solid rgb(13.661, 62.156, 81.964);
 	background: url('../img/C1.jpg');
@@ -302,8 +304,7 @@ body{
 
 /*media queries*/
 
-@media only screen
-and (max-width: 768px){ 
+@media(max-width: 768px){ 
 /*and (max-width: 1024px){*/
 	.nav a i{
 		display: flex;
@@ -365,8 +366,7 @@ and (max-width: 768px){
 } 
 
 
-@media only screen
-and (max-width: 600px){ 
+@media(max-width: 600px){ 
 	.nav a i{
 		display: flex;
 		position: absolute;
@@ -383,8 +383,7 @@ and (max-width: 600px){
 
 
 
-@media only screen
-and (max-width: 425px){
+@media(max-width: 425px){
 	.nav a i{
 		display: flex;
 		position: absolute;
@@ -487,13 +486,12 @@ and (max-width: 425px){
 	}
 }
 
-@media only screen
-and (max-width: 375px){
+@media (max-width: 386px){
 	.nav a i{
 		display: flex;
 		position: absolute;
-		top: 45px;
-		left: 350px;
+		top: 43px;
+		left: 330px;
 	}
 	.topbox2{
 		margin-left: 3rem;
@@ -501,13 +499,12 @@ and (max-width: 375px){
 }
 
 
-@media only screen
-and (max-width: 320px){
+@media (max-width: 320px){
 	.nav a i{
 		display: flex;
 		position: absolute;
-		top: 45px;
-		left: 300px;
+		top: 38px;
+		left: 290px;
 	}
 	.topbox2{
 		margin-left: 2rem;
